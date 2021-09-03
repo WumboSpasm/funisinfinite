@@ -1,0 +1,27 @@
+/*
+    Majin Sonic art by SwitchKaze (used with permission) https://twitter.com/sxkaze/status/1432372544754044928
+    Music from KHInsider https://downloads.khinsider.com/game-soundtracks/album/sonic-cd-2011/51-us-boss.mp3
+    Sonic art taken from SEGA merch and AI upscaled
+*/
+body {
+    width: 2000vw;
+    height: 2000vh;
+}
+img {
+    position: fixed;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vmin;
+    image-rendering: smooth;
+}
+img[src="assets/calm.png"] {
+    cursor: pointer;
+}
+div {
+    position: fixed;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 5vmin;
+    white-space: nowrap;
+    color: #fff;
+}
